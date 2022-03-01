@@ -13,6 +13,46 @@ header {
   padding: 25px;
 }
 
+form input[type=text] {
+  background: #fff;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+form button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 405px;
+}
+
+ul li {
+  position: relative;
+}
+ul li span.notificacao {
+  color: #fff;
+  background: #FF0F9A;
+  position: absolute;
+  top: -10px;
+  left: 2px;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+ul a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343A40;
+}
+ul a svg {
+  font-size: 20px;
+}
+ul a:hover {
+  color: initial;
+}
+
 /*!
 * Bootstrap v5.1.3 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
