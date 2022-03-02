@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&display=swap");
-* {
+body {
   color: #343A40;
 }
 
@@ -51,6 +51,22 @@ ul a svg {
 }
 ul a:hover {
   color: initial;
+}
+
+nav.nav-produtos {
+  background: #343A40;
+  color: #fff;
+}
+nav.nav-produtos ul.nav li {
+  position: relative;
+  padding: 10px 0;
+}
+nav.nav-produtos ul.nav li svg {
+  font-size: 20px;
+  margin-right: 10px;
+}
+nav.nav-produtos ul.nav li ul.nav {
+  display: none;
 }
 
 /*!
