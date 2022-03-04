@@ -24,7 +24,7 @@ form button {
   background: none;
   border: none;
   position: absolute;
-  right: 405px;
+  right: 650px;
 }
 
 ul li {
@@ -55,6 +55,9 @@ ul a:hover {
 
 nav.nav-produtos {
   background: #343A40;
+  color: #fff;
+}
+nav.nav-produtos a {
   color: #fff;
 }
 nav.nav-produtos ul.nav li {
