@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,200&display=swap");
-body {
-  color: #343A40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   background-color: #FFC107;
   padding: 25px;
@@ -11637,5 +11629,12 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
