@@ -80,6 +80,15 @@ nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
 }
 
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background-color: #FF0F9A;
+  background-image: url("../img/background-parcelas.png");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-color: #B343C3;
+  background-image: url("../img/background-entrega.png");
+}
+
 /*!
 * Bootstrap v5.1.3 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
