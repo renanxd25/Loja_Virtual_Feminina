@@ -1,8 +1,21 @@
+@media(max-width:375px){
+    .banners-promocionais-statico{
+        .banners-promocionais-12x,
+        .banners-promocionais-statico-todo-br{
+            p{
+                font-size: 14px;
+            }
+        }
+    }
+}
 @media(max-width:767){
     header{
         form{
             margin: 20px 0;
         }
+    }
+    #banners-profissionais{
+        display: none;
     }
 }
 

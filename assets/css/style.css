@@ -166,9 +166,19 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banners-promocionais-statico .banners-promocionais-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+    font-size: 14px;
+  }
+}
 @media (max-width: 767) {
   header form {
     margin: 20px 0;
+  }
+
+  #banners-profissionais {
+    display: none;
   }
 }
 @media (max-width: 991px) {
